@@ -1,7 +1,7 @@
 import Lottie from 'lottie-web';
 import EkoUIComponents from 'EkoUIComponents';
 
-export default class LottieAnimatedTimer extends EkoUIComponents.EkoTimer{
+export default class LottieAnimatedTimer extends EkoUIComponents.EkoButton{
     componentDidMount(){
 
         // generate a new Lottie instance with the animation path passed in the props
@@ -20,7 +20,7 @@ export default class LottieAnimatedTimer extends EkoUIComponents.EkoTimer{
 
     componentWillUnMount(){
         this.isActive = false;
-        
+
         // release resources
         this.animation.destroy();
     }
