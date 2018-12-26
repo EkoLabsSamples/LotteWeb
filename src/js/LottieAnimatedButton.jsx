@@ -3,7 +3,6 @@ import EkoUIComponents from 'EkoUIComponents';
 
 export default class LottieAnimatedButton extends EkoUIComponents.EkoDecisionButton {
     componentDidMount(){
-
         // generate a new Lottie instance with the animation path passed in the props
         this.animation = Lottie.loadAnimation({
             container: this.containerRef.current,
@@ -12,12 +11,11 @@ export default class LottieAnimatedButton extends EkoUIComponents.EkoDecisionBut
             autoplay: true,
             animationData: this.props.lottieData,
         });
-
-        this.isActive = true;
     }
 
     componentWillUnMount(){
-        this.isActive = false;
+        // release resources
+        this.animation.destroy();
     }
 
     getContent(){

@@ -20,6 +20,9 @@ export default class LottieAnimatedTimer extends EkoUIComponents.EkoTimer{
 
     componentWillUnMount(){
         this.isActive = false;
+        
+        // release resources
+        this.animation.destroy();
     }
 
     onRAF(){
