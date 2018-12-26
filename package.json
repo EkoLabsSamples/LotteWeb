@@ -1,5 +1,5 @@
 {
-    "name": "LottieWeb/BodyMovin",
+    "name": "LottieWeb_Example",
     "version": "1.0.0",
     "description": "Using LottieWeb (Previously known as BodyMovin) to drive button/timer animations in custom UI components",
     "keywords": [],
