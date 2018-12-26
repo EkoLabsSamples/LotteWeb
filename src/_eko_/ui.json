@@ -2,6 +2,20 @@
     "apiVersion": "3.25.0-83",
     "guiControllers": [
         {
+            "id": "node_pin_eb5bbb",
+            "type": "DECISION",
+            "config": {
+                "showInNodes": [
+                    "node_pin_eb5bbb"
+                ],
+                "hideInNodesEnd": [
+                    "node_pin_eb5bbb"
+                ],
+                "userSelectionDisappearDelay": 2.5,
+                "autoSelectionDisappearDelay": 3.5
+            }
+        },
+        {
             "id": "node_beginning_2430df",
             "type": "DECISION",
             "config": {
@@ -42,25 +56,11 @@
                 "userSelectionDisappearDelay": 2.5,
                 "autoSelectionDisappearDelay": 3.5
             }
-        },
-        {
-            "id": "node_pin_eb5bbb",
-            "type": "DECISION",
-            "config": {
-                "showInNodes": [
-                    "node_pin_eb5bbb"
-                ],
-                "hideInNodesEnd": [
-                    "node_pin_eb5bbb"
-                ],
-                "userSelectionDisappearDelay": 2.5,
-                "autoSelectionDisappearDelay": 3.5
-            }
         }
     ],
     "gui": [
         {
-            "id": "d2b76320-08fe-11e9-af25-13bebeecc463",
+            "id": "5c236e7c-54d0-404e-a17a-44def36892c6",
             "component": "EkoGroup",
             "props": {
                 "config": {
@@ -88,11 +88,11 @@
                     "enableTransition": false,
                     "text": "Timer1",
                     "style": {
-                        "top": 53,
-                        "left": 747,
-                        "width": "60px",
-                        "height": "60px",
-                        "visibility": "hidden",
+                        "top": 119,
+                        "left": 155,
+                        "width": "79px",
+                        "height": "79px",
+                        "visibility": "visible",
                         "opacity": 1,
                         "transform": "rotate(0deg)",
                         "transformOrigin": "0 0",
@@ -115,10 +115,10 @@
                     "enableTransition": false,
                     "text": "Hat",
                     "style": {
-                        "top": 173,
-                        "left": 73,
-                        "width": "170px",
-                        "height": "46px",
+                        "top": 226,
+                        "left": 37,
+                        "width": "106px",
+                        "height": "100px",
                         "visibility": "visible",
                         "opacity": 1,
                         "transform": "rotate(0deg)",
@@ -175,10 +175,10 @@
                     "enableTransition": false,
                     "text": "Scar",
                     "style": {
-                        "top": 238,
-                        "left": 72,
-                        "width": "171px",
-                        "height": "46px",
+                        "top": 226,
+                        "left": 145,
+                        "width": "100px",
+                        "height": "100px",
                         "visibility": "visible",
                         "opacity": 1,
                         "transform": "rotate(0deg)",
@@ -235,10 +235,10 @@
                     "enableTransition": false,
                     "text": "Pin",
                     "style": {
-                        "top": 303,
-                        "left": 73,
-                        "width": "170px",
-                        "height": "46px",
+                        "top": 226,
+                        "left": 246,
+                        "width": "100px",
+                        "height": "100px",
                         "visibility": "visible",
                         "opacity": 1,
                         "transform": "rotate(0deg)",
@@ -258,8 +258,8 @@
                         {
                             "type": "DECISION_SELECT",
                             "decisionId": "node_beginning_2430df",
-                            "targetNode": "node_pin_eb5bbb",
-                            "connectOn": "NODE_END"
+                            "connectOn": "NODE_END",
+                            "targetNode": "node_pin_eb5bbb"
                         },
                         {
                             "type": "PLAY_SOUND",

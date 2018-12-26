@@ -4,7 +4,7 @@ export default {
     source: ivds.vid_video_scar_2999b2,
     data: {
                     insights: {
-                uid: 'd2b69fd0-08fe-11e9-af25-13bebeecc463'
+                uid: '5c236e7c-ed70-4dab-a282-44def36892c6'
                             },
                             decision: {
                 startTime: 10.811,

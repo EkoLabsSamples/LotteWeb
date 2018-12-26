@@ -7,7 +7,6 @@ import buttonAnimation2 from '../lottieAnimations/day_of_the_dead_skull.json';
 import buttonAnimation3 from '../lottieAnimations/grave.json';
 import timerAnimation from '../lottieAnimations/splashy_loader.json';
 
-
 export default {
     onLoad: function(ctx) { },
 
