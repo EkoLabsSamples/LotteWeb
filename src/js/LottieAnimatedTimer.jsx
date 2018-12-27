@@ -18,7 +18,7 @@ export default class LottieAnimatedTimer extends EkoUIComponents.EkoButton{
         this.onRAF();
     }
 
-    componentWillUnMount(){
+    componentWillUnmount(){
         this.isActive = false;
 
         // release resources

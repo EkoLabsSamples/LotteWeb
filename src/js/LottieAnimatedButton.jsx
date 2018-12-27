@@ -13,7 +13,7 @@ export default class LottieAnimatedButton extends EkoUIComponents.EkoDecisionBut
         });
     }
 
-    componentWillUnMount(){
+    componentWillUnmount(){
         // release resources
         this.animation.destroy();
     }
