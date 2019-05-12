@@ -10,7 +10,7 @@
     },
     "main": "./src/js/app.js",
     "scripts": {
-        "start": "rm -rf dist  && rm -rf ./index.html && ./node_modules/.bin/eko studio test -p 8080"
+        "start": "ls ./src/templates && rm -rf ./src/templates/codesandbox.html && ./node_modules/.bin/eko studio test -p 8080"
     },
     "devDependencies": {
         "eko-cli": "*"
