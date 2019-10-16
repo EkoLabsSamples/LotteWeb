@@ -1,6 +1,10 @@
 import Lottie from 'lottie-web';
 import EkoUIComponents from 'EkoUIComponents';
 
+// Configure Lottie. You need to do this only once. Read more here:
+// https://developer.helloeko.com/docs/howto/svgs_and_lottie.html#Using-Lottie-Elements
+Lottie.setLocationHref(window.location.href);
+
 export default class LottieAnimatedTimer extends EkoUIComponents.EkoButton{
     componentDidMount(){
 
